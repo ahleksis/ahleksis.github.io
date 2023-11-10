@@ -1,0 +1,66 @@
+body{
+	background-color: black !important;
+}
+.prof{
+	width: 90%;
+	padding: 20px;
+	border-radius: 100%;
+}
+.content{
+	padding: 30px;
+	padding-top: 0px !important;
+	color: #FFFFFFCC;
+	font-size:20px;
+}
+.title{
+	color: #00FF00;
+}
+.con{
+	font-size: 17px !important;
+}
+.section-title strong::after {
+    content: " ";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: #00FF00;
+    margin: 4px 10px;
+}
+
+@media only screen and (min-width: 1000px){
+	body{
+	background-color: #333333 !important;
+	}
+	ul.nav{
+    float: right;
+    padding: 10px;
+    padding-right: 90px;
+  	}
+  	a.navbar-brand{
+  		padding: 25px;
+  		font-size: 30px;
+  	}
+  	.prof{
+	width: 100%;
+	padding: 20px;
+	margin-right: 70%;
+	border-radius: 100%;
+	}
+	.content{
+		background-color: black;
+		margin-right: 10%;
+		margin-left: 10%;
+	}
+	.details{
+		margin-left: 10%;
+		padding: 40px !important;
+	}
+	div.sub-cont{
+		float: left;
+		width: 30%;
+		padding-bottom: 20%;
+	}
+	.p{
+	margin-left: 30%;
+	}
+}
